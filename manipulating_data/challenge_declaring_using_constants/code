@@ -1,0 +1,14 @@
+function getSubscriptionCost() {
+  // Write your code below this line
+  const MONTHLY_PRICE = 9.99;
+  // Declare constant for the monthly price
+  
+
+  let userDevices = 3;
+  let totalCost = userDevices * MONTHLY_PRICE;
+
+  // Write your code above this line
+  return totalCost;
+}
+
+console.log(getSubscriptionCost());
