@@ -1,5 +1,5 @@
 // Write your function below this line
-function generateEmailResponse(name = "Valued Customer", issue = "a general enquiry", responseTime = "24 hours") {
+function generateEmailResponse(name = "Valued Customer", issue = "a general inquiry", responseTime = "24 hours") {
   return (
     "Dear " + name + ",\n\n" +
     "Thank you for reaching out regarding " + issue + ".\n" +
