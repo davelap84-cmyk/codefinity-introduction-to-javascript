@@ -1,0 +1,34 @@
+function checkZooAnimals() {
+  let animalsInZoo = [
+    "Lion",
+    "Tiger",
+    "Elephant",
+    "Giraffe",
+    "Panda"
+  ];
+
+  let messages = [];
+
+  if (animalsInZoo.includes("Lion")) {
+    messages.push("Yay! We have a Lion in our zoo!");
+  } else {
+    messages.push("Oh no! No Lion in our zoo today.");
+  }
+
+  if (animalsInZoo.includes("Zebra")) {
+    messages.push("Yay! We have a Zebra in our zoo!");
+  } else {
+    messages.push("Oh no! No Zebra in our zoo today.");
+  }
+
+  if (animalsInZoo.includes("Panda")) {
+    messages.push("Yay! We have a Panda in our zoo!");
+  } else {
+    messages.push("Oh no! No Panda in our zoo today.");
+  }
+
+  return messages;
+}
+
+// Testing
+console.log(checkZooAnimals());
